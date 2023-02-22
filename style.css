@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1920px;
+	margin: 0px auto;
+	padding: 0px 0px;
+}
+
+.parallax_1{
+	background: url('fotor1.jpg');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment: fixed;
+	text-align: center;
+	background-size: cover;
+	padding: 40vh 0;
+}
+.parallax_1 h1,h4{
+	color:#fff;
+	font-weight: normal;
+	letter-spacing: 7px;
+	text-shadow: 2px 2px 2px rgba(153, 188, 247, 0.4);
+	font-family: 'Playfair Display', serif;
+}
+.parallax_1 h1{
+	font-size: 500%;
+	border-bottom: 2px solid white;
+	width: 55%;
+	display: inline-block;
+}
+.parallax_1 h4{
+	font-size: 150%;
+	width: 55%;
+	display: inline-block;
+
+}
+
+.parallax_2{
+	background: white;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment: fixed;
+	background-size: cover;
+	height:40em;
+	font-family: 'Playfair Display', serif;
+	padding-bottom:10px;
+}
+.parallax_2 h1{
+	
+}
+.content_1, .content_2{
+	background-color: #9BCBF6;
+}
+.content_1{
+	text-align: center;
+	padding:60px;
+	font-family: 'Playfair Display', serif;
+	height: 30%;
+}
+.content_2{
+	text-align: center;
+	padding: 40px;
+	font-family: 'Playfair Display', serif;
+}
+.content_1 p,.content_2 p {
+	width:70%;
+	display: inline-block;
+	font-size: 20px;
+}
+
+p{
+	margin:0px;
+}
