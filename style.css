@@ -3,6 +3,24 @@
 	padding:0;
 	box-sizing: border-box;
 }
+footer {
+	height: 6em;
+	background: #08121B;
+}
+
+footer p {
+	color: #fff;
+	float: right;
+	padding-top: 2.5em;
+	padding-right: 5px;
+	font-family: 'Playfair Display', serif;
+}
+footer img {
+	height: 70px;
+	width: 70px;
+	float: right;
+	margin:10px 10px 10px 10px;
+}
 .container {
 	max-width: 1920px;
 	margin: 0px auto;
@@ -17,6 +35,7 @@
 	text-align: center;
 	background-size: cover;
 	padding: 40vh 0;
+	height: 745px;
 }
 .parallax_1 h1,h4{
 	color:#fff;
@@ -30,6 +49,7 @@
 	border-bottom: 2px solid white;
 	width: 55%;
 	display: inline-block;
+	animation-duration: 2s;
 }
 .parallax_1 h4{
 	font-size: 150%;
@@ -38,21 +58,28 @@
 
 }
 
+
 .parallax_2{
 	background: white;
 	background-repeat: no-repeat;
 	background-position:center;
 	background-attachment: fixed;
 	background-size: cover;
-	height:40em;
+	height:45em;
+	text-align: center;
 	font-family: 'Playfair Display', serif;
-	padding-bottom:10px;
 }
 .parallax_2 h1{
-	
+	padding-top: 10px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid black;
+	width: 12%;
+	display: inline-block;
+	letter-spacing: 3px;
+	text-shadow:2px 2px 2px rgba(0,0,0, 0.4);
 }
 .content_1, .content_2{
-	background-color: #9BCBF6;
+	background-color: #CBE5FD;
 }
 .content_1{
 	text-align: center;
@@ -73,4 +100,52 @@
 
 p{
 	margin:0px;
+}
+.gallery {
+	max-width: 1300px;
+	width: 90%;
+	height: auto;
+	margin: 30px auto;
+	display: grid;
+	grid-template-columns:repeat(auto-fill, 300px) ;
+	justify-content: center;
+	grid-gap: 15px;
+
+}
+.gal-img {
+	width: 300px;
+	height: 250px;
+	border-radius: 2px;
+	margin:0px;
+	filter: grayscale(0.3);
+	transition: all .7s linear;
+	cursor: pointer;
+}
+
+.gal-img:hover {
+	transform: scale(1.1);
+	filter: grayscale(0);
+	box-shadow: 5px 10px 18px #888888: /* не работает */
+}
+figure {
+	margin:0;
+
+}
+.knopka {
+	background-color: #80597D;
+	border-color: #80597D;
+	border-radius: 30px;
+	transition: all 0.3s;
+	margin-top: 20px;
+	padding: .5rem 1rem;
+}
+.knopka:hover {
+	transform: scale(1.1);
+	background-color: #51264D;
+	border-color: #51264D;
+}
+.knopka:active {
+	background-color: #51264D;
+	border-color: #51264D;
+	text-decoration: underline;
 }
