@@ -101,35 +101,55 @@ footer img {
 p{
 	margin:0px;
 }
-.gallery {
-	max-width: 1300px;
+.gallery {	
 	width: 90%;
 	height: auto;
 	margin: 30px auto;
 	display: grid;
-	grid-template-columns:repeat(auto-fill, 300px) ;
+	grid-template-columns:repeat(auto-fill, 200px) ;
 	justify-content: center;
 	grid-gap: 15px;
 
 }
 .gal-img {
-	width: 300px;
+	width: 200px;
 	height: 250px;
 	border-radius: 2px;
 	margin:0px;
 	filter: grayscale(0.3);
-	transition: all .7s linear;
+	transition: all .7s;
 	cursor: pointer;
 }
 
 .gal-img:hover {
 	transform: scale(1.1);
 	filter: grayscale(0);
-	box-shadow: 5px 10px 18px #888888: /* не работает */
+	box-shadow: 5px 10px 18px #888888;
 }
-figure {
-	margin:0;
+.gallery6 {
+	grid-row-start: 1;
+	grid-row-end:3 ;
+	grid-column-start: 1;
+	grid-column-end: 3;	
+}
+.gallery6 .gal-img {
+	width:400px;
+	height: 532px;
+}
+.gallery2 {
+	grid-column-start: 4;
+	grid-column-end: 6;
+}
+.gallery2 .gal-img{
+	width: 400px;
+}
 
+figure {
+	margin:0px;
+	padding:0px;
+}
+img{
+	margin:;
 }
 .knopka {
 	background-color: #80597D;
@@ -143,6 +163,8 @@ figure {
 	transform: scale(1.1);
 	background-color: #51264D;
 	border-color: #51264D;
+	box-shadow: 5px 5px 18px #888888;
+
 }
 .knopka:active {
 	background-color: #51264D;

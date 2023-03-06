@@ -52,7 +52,7 @@
 		height: 896px;
 	}
 	.parallax_2{
-		height: 145em;
+		height: 142	em;
 	}
 	.parallax_2 h1{
 		width:60% !important;
@@ -64,6 +64,29 @@
 		font-size: 100% !important;
 		width: 80%;
 	}
+	.gallery {
+		max-width: 414px !important;
+	}
+	.gal-img {
+		width: 200px !important;
+		height: 250px !important;
+	}
+	.gallery6 {
+		grid-row-start: auto;
+		grid-row-end: auto;
+		grid-column-start: auto;
+		grid-column-end: auto;
+		margin:0;
+	}
+	.gallery2 {
+		grid-column-start: auto;
+		grid-column-end: auto;
+	}
+	.gallery2 .gal-img{
+		width: 200px;
+	}
+
+
 }
 @media (max-width:320px){
 	.container{
